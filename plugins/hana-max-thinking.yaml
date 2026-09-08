@@ -1,0 +1,38 @@
+﻿schemaVersion: 1
+id: hana-max-thinking
+name: Max Thinking
+publisher: "2990927961"
+author: "2990927961"
+version: 0.1.6
+description: Force every chat model in every Hana session and channel (desktop / phone / bridge) to run at its highest supported thinking level. Fixes silent GLM 5.3 Flash channels.
+license: MIT
+categories:
+  - Utilities
+  - Agent
+keywords:
+  - thinking
+  - glm
+  - channel
+  - reasoning
+  - glm-5.3-flash
+homepage: https://github.com/17308265071-pixel/hana-max-thinking
+repository: https://github.com/17308265071-pixel/hana-max-thinking
+readmePath: plugins/hana-max-thinking/README.md
+compatibility:
+  minAppVersion: 0.158.0
+trust: full-access
+permissions:
+  - Updates session metadata (thinking level) through the session:update bus capability
+  - Lists sessions for alignment sweeps
+  - Writes its own status log and config under plugin-data
+contributions:
+  - tools
+  - skills
+  - configuration
+  - lifecycle
+distribution:
+  kind: release
+  packageUrl: https://github.com/17308265071-pixel/hana-max-thinking/releases/download/v0.1.6/hana-max-thinking.zip
+  sha256: c80345d9b4666191be99ffccc541c7c3c4b8a94ec31769ba46c71c753ae4887f
+install:
+  defaultEnabled: false
