@@ -3,7 +3,7 @@ id: hana-max-thinking
 name: Max Thinking
 publisher: "2990927961"
 author: "2990927961"
-version: 0.1.8
+version: 0.1.9
 description: Force every chat model in every Hana session and channel (desktop / phone / bridge) to run at its highest supported thinking level. Fixes silent GLM 5.3 Flash channels.
 license: MIT
 categories:
@@ -32,7 +32,7 @@ contributions:
   - lifecycle
 distribution:
   kind: release
-  packageUrl: https://github.com/17308265071-pixel/hana-max-thinking/releases/download/v0.1.8/hana-max-thinking.zip
-  sha256: b1818d6b45068f8efc7da9d74c630395352f9d657026de00ed575d69467fb85b
+  packageUrl: https://github.com/17308265071-pixel/hana-max-thinking/releases/download/v0.1.9/hana-max-thinking.zip
+  sha256: b4cae7a328fa43321a1da06f408dc10ba4a9987657853f65ead96d45d4cb2745
 install:
   defaultEnabled: false
