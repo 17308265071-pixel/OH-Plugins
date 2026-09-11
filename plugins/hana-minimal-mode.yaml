@@ -3,7 +3,7 @@ id: hana-minimal-mode
 name: Hana Minimal Mode
 publisher: '2990927961'
 author: '2990927961'
-version: 0.4.7
+version: 0.5.0
 description: 'Progressive-disclosure router for HanaAgent: T0 anchor round, staged tool surfacing with full release afterwards, per-task platform tool packs, per-model routing, and single-target management from a sidebar panel. Ports dsh-routing-suite router-standard 1:1 while preserving native Hana tools.'
 license: MIT
 categories:
@@ -38,7 +38,7 @@ contributions:
   - lifecycle
 distribution:
   kind: release
-  packageUrl: https://github.com/17308265071-pixel/hana-minimal-mode/releases/download/v0.4.7/hana-minimal-mode-v0.4.7.zip
-  sha256: 60d20201163d034fbfb2e65c654658c523a26b08afd00d8a07dd2d0d1d33e1fe
+  packageUrl: https://github.com/17308265071-pixel/hana-minimal-mode/releases/download/v0.5.0/hana-minimal-mode-v0.5.0.zip
+  sha256: a340622f311a0e86ae1d0d9798a2452e37853dcccabd27608bcb8ccffff7b28d
 install:
   defaultEnabled: false
