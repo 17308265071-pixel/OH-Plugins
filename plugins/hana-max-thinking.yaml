@@ -1,10 +1,10 @@
-﻿schemaVersion: 1
+schemaVersion: 1
 id: hana-max-thinking
 name: Max Thinking
 publisher: "2990927961"
 author: "2990927961"
-version: 0.1.9
-description: Force every chat model in every Hana session and channel (desktop / phone / bridge) to run at its highest supported thinking level. Fixes silent GLM 5.3 Flash channels.
+version: 0.2.0
+description: Force every chat model in every Hana session and channel (desktop / phone / bridge) to run at its highest supported thinking level, sync the level into session metadata, and inject a system-prompt guide so agents answer thinking-level questions with real status instead of guesses.
 license: MIT
 categories:
   - Utilities
@@ -32,7 +32,43 @@ contributions:
   - lifecycle
 distribution:
   kind: release
-  packageUrl: https://github.com/17308265071-pixel/hana-max-thinking/releases/download/v0.1.9/hana-max-thinking.zip
-  sha256: b4cae7a328fa43321a1da06f408dc10ba4a9987657853f65ead96d45d4cb2745
+  packageUrl: https://github.com/17308265071-pixel/hana-max-thinking/releases/download/v0.2.0/hana-max-thinking-v0.2.0.zip
+  sha256: 0920dd7f368fa7a2efdd79eaabbe7a4b9cf20b04cf2aa3b18fcb57ae923e56b8
+versions:
+  - version: 0.2.0
+    compatibility:
+      minAppVersion: 0.158.0
+    distribution:
+      kind: release
+      packageUrl: https://github.com/17308265071-pixel/hana-max-thinking/releases/download/v0.2.0/hana-max-thinking-v0.2.0.zip
+      sha256: 0920dd7f368fa7a2efdd79eaabbe7a4b9cf20b04cf2aa3b18fcb57ae923e56b8
+  - version: 0.1.12
+    compatibility:
+      minAppVersion: 0.158.0
+    distribution:
+      kind: release
+      packageUrl: https://github.com/17308265071-pixel/hana-max-thinking/releases/download/v0.1.12/hana-max-thinking-v0.1.12.zip
+      sha256: 5af54ad773f7a8c3e32eb6e36fd2d6e215c547daf15b49ccdc1fafdbd2693b78
+  - version: 0.1.11
+    compatibility:
+      minAppVersion: 0.158.0
+    distribution:
+      kind: release
+      packageUrl: https://github.com/17308265071-pixel/hana-max-thinking/releases/download/v0.1.11/hana-max-thinking-v0.1.11.zip
+      sha256: bcf44011056778c564c6eda75d45f129543b57e893f15032d3f4bf8e82b1fde6
+  - version: 0.1.10
+    compatibility:
+      minAppVersion: 0.158.0
+    distribution:
+      kind: release
+      packageUrl: https://github.com/17308265071-pixel/hana-max-thinking/releases/download/v0.1.10/hana-max-thinking-v0.1.10.zip
+      sha256: 86221e802ec64b6fcaf63a50fbdec18d6a189870addcbb1b2b67e456ff67f30d
+  - version: 0.1.9
+    compatibility:
+      minAppVersion: 0.158.0
+    distribution:
+      kind: release
+      packageUrl: https://github.com/17308265071-pixel/hana-max-thinking/releases/download/v0.1.9/hana-max-thinking.zip
+      sha256: b4cae7a328fa43321a1da06f408dc10ba4a9987657853f65ead96d45d4cb2745
 install:
   defaultEnabled: false
